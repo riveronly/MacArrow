@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9820989D2C5260D90019A8A6 /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 9820989C2C5260D90019A8A6 /* Defaults */; };
 		982451FF2C52260D00F79F96 /* MenuBarExtraAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 982451FE2C52260D00F79F96 /* MenuBarExtraAccess */; };
 		982452022C52305600F79F96 /* AboutScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982452012C52305600F79F96 /* AboutScreenView.swift */; };
 		982452042C52308800F79F96 /* SettingsSreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982452032C52308800F79F96 /* SettingsSreenView.swift */; };
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9820989D2C5260D90019A8A6 /* Defaults in Frameworks */,
 				982451FF2C52260D00F79F96 /* MenuBarExtraAccess in Frameworks */,
 				98F10C042C5200C7000E46BE /* LaunchAtLogin in Frameworks */,
 			);
@@ -109,6 +111,7 @@
 			packageProductDependencies = (
 				98F10C032C5200C7000E46BE /* LaunchAtLogin */,
 				982451FE2C52260D00F79F96 /* MenuBarExtraAccess */,
+				9820989C2C5260D90019A8A6 /* Defaults */,
 			);
 			productName = MacArrow;
 			productReference = 98BF535D2C4FB16F0099DBAB /* MacArrow.app */;
@@ -401,6 +404,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9820989C2C5260D90019A8A6 /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 986887FC2C52551700DA5CE1 /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
+		};
 		982451FE2C52260D00F79F96 /* MenuBarExtraAccess */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 982451FD2C52260D00F79F96 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */;

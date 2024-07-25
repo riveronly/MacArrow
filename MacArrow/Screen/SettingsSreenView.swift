@@ -1,9 +1,18 @@
 import SwiftUI
 import LaunchAtLogin
+import Defaults
+
+extension Defaults.Keys {
+    static let isScrollDirectionEnabled = Key<Bool>("isScrollDirectionEnabled", default: true)
+    static let isSmoothScrollingEnabled = Key<Bool>("isSmoothScrollingEnabled", default: true)
+}
 
 struct SettingsSreenView: View {
-    @State private var isScrollDirectionEnabled: Bool = false
-    @State private var isSmoothScrollingEnabled: Bool = false
+    @Default(.isScrollDirectionEnabled) var isScrollDirectionEnabled
+    @Default(.isSmoothScrollingEnabled) var isSmoothScrollingEnabled
+    //    @State private var isScrollDirectionEnabled: Bool = false
+    //    @State private var isSmoothScrollingEnabled: Bool = false
+   
     
     var body: some View {
         Form {
