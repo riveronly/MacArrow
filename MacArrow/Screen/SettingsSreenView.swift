@@ -28,7 +28,7 @@ struct SettingsSreenView: View {
                 
             }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .padding()
     }
 }
