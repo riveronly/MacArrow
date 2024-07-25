@@ -58,8 +58,8 @@
 		98BF53542C4FB16F0099DBAB = {
 			isa = PBXGroup;
 			children = (
-				5796591C2C5285630039EFAC /* .gitignore */,
 				98BF535F2C4FB16F0099DBAB /* MacArrow */,
+				5796591C2C5285630039EFAC /* .gitignore */,
 				98BF535E2C4FB16F0099DBAB /* Products */,
 			);
 			sourceTree = "<group>";
