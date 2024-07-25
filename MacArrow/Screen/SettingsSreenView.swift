@@ -5,13 +5,13 @@ import Defaults
 extension Defaults.Keys {
     static let isScrollDirectionEnabled = Key<Bool>("isScrollDirectionEnabled", default: true)
     static let isSmoothScrollingEnabled = Key<Bool>("isSmoothScrollingEnabled", default: true)
+    static let isShiftHorizontalScrollEnabled = Key<Bool>("isShiftHorizontalScrollEnabled", default: true)
 }
 
 struct SettingsSreenView: View {
     @Default(.isScrollDirectionEnabled) var isScrollDirectionEnabled
     @Default(.isSmoothScrollingEnabled) var isSmoothScrollingEnabled
-    //    @State private var isScrollDirectionEnabled: Bool = false
-    //    @State private var isSmoothScrollingEnabled: Bool = false
+    @Default(.isShiftHorizontalScrollEnabled) var isShiftHorizontalScrollEnabled
    
     
     var body: some View {
@@ -24,6 +24,9 @@ struct SettingsSreenView: View {
                     .toggleStyle(SwitchToggleStyle())
                 
                 Toggle("顺滑滚动", isOn: $isSmoothScrollingEnabled)
+                    .toggleStyle(SwitchToggleStyle())
+                
+                Toggle("按住Shift横向滚动", isOn: $isShiftHorizontalScrollEnabled)
                     .toggleStyle(SwitchToggleStyle())
                 
             }
