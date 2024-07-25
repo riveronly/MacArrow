@@ -20,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5796591C2C5285630039EFAC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		982452012C52305600F79F96 /* AboutScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreenView.swift; sourceTree = "<group>"; };
 		982452032C52308800F79F96 /* SettingsSreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSreenView.swift; sourceTree = "<group>"; };
 		98BF535D2C4FB16F0099DBAB /* MacArrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacArrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				98BF535F2C4FB16F0099DBAB /* MacArrow */,
-				5796591C2C5285630039EFAC /* .gitignore */,
 				98BF535E2C4FB16F0099DBAB /* Products */,
 			);
 			sourceTree = "<group>";
