@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		982451FF2C52260D00F79F96 /* MenuBarExtraAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 982451FE2C52260D00F79F96 /* MenuBarExtraAccess */; };
+		982452022C52305600F79F96 /* AboutScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982452012C52305600F79F96 /* AboutScreenView.swift */; };
+		982452042C52308800F79F96 /* SettingsSreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982452032C52308800F79F96 /* SettingsSreenView.swift */; };
+		98BF53612C4FB16F0099DBAB /* MacArrowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF53602C4FB16F0099DBAB /* MacArrowApp.swift */; };
+		98BF53632C4FB16F0099DBAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF53622C4FB16F0099DBAB /* ContentView.swift */; };
+		98BF53652C4FB1700099DBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BF53642C4FB1700099DBAB /* Assets.xcassets */; };
+		98BF53682C4FB1700099DBAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BF53672C4FB1700099DBAB /* Preview Assets.xcassets */; };
+		98F10C042C5200C7000E46BE /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 98F10C032C5200C7000E46BE /* LaunchAtLogin */; };
+		98FB26082C510EBE00EECE5B /* MouseEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FB26072C510EBE00EECE5B /* MouseEventController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		982452012C52305600F79F96 /* AboutScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreenView.swift; sourceTree = "<group>"; };
+		982452032C52308800F79F96 /* SettingsSreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSreenView.swift; sourceTree = "<group>"; };
+		98BF535D2C4FB16F0099DBAB /* MacArrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacArrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BF53602C4FB16F0099DBAB /* MacArrowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacArrowApp.swift; sourceTree = "<group>"; };
+		98BF53622C4FB16F0099DBAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98BF53642C4FB1700099DBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98BF53672C4FB1700099DBAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98BF53692C4FB1700099DBAB /* MacArrow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacArrow.entitlements; sourceTree = "<group>"; };
+		98FB26072C510EBE00EECE5B /* MouseEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseEventController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98BF535A2C4FB16F0099DBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982451FF2C52260D00F79F96 /* MenuBarExtraAccess in Frameworks */,
+				98F10C042C5200C7000E46BE /* LaunchAtLogin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		982452002C52304500F79F96 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				982452012C52305600F79F96 /* AboutScreenView.swift */,
+				982452032C52308800F79F96 /* SettingsSreenView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		98BF53542C4FB16F0099DBAB = {
+			isa = PBXGroup;
+			children = (
+				98BF535F2C4FB16F0099DBAB /* MacArrow */,
+				98BF535E2C4FB16F0099DBAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98BF535E2C4FB16F0099DBAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98BF535D2C4FB16F0099DBAB /* MacArrow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98BF535F2C4FB16F0099DBAB /* MacArrow */ = {
+			isa = PBXGroup;
+			children = (
+				982452002C52304500F79F96 /* Screen */,
+				98BF53602C4FB16F0099DBAB /* MacArrowApp.swift */,
+				98BF53622C4FB16F0099DBAB /* ContentView.swift */,
+				98BF53642C4FB1700099DBAB /* Assets.xcassets */,
+				98BF53692C4FB1700099DBAB /* MacArrow.entitlements */,
+				98FB26072C510EBE00EECE5B /* MouseEventController.swift */,
+				98BF53662C4FB1700099DBAB /* Preview Content */,
+			);
+			path = MacArrow;
+			sourceTree = "<group>";
+		};
+		98BF53662C4FB1700099DBAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98BF53672C4FB1700099DBAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98BF535C2C4FB16F0099DBAB /* MacArrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98BF536C2C4FB1700099DBAB /* Build configuration list for PBXNativeTarget "MacArrow" */;
+			buildPhases = (
+				98BF53592C4FB16F0099DBAB /* Sources */,
+				98BF535A2C4FB16F0099DBAB /* Frameworks */,
+				98BF535B2C4FB16F0099DBAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacArrow;
+			packageProductDependencies = (
+				98F10C032C5200C7000E46BE /* LaunchAtLogin */,
+				982451FE2C52260D00F79F96 /* MenuBarExtraAccess */,
+			);
+			productName = MacArrow;
+			productReference = 98BF535D2C4FB16F0099DBAB /* MacArrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98BF53552C4FB16F0099DBAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					98BF535C2C4FB16F0099DBAB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 98BF53582C4FB16F0099DBAB /* Build configuration list for PBXProject "MacArrow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98BF53542C4FB16F0099DBAB;
+			packageReferences = (
+				98F10C022C5200C7000E46BE /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+				982451FD2C52260D00F79F96 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */,
+			);
+			productRefGroup = 98BF535E2C4FB16F0099DBAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98BF535C2C4FB16F0099DBAB /* MacArrow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98BF535B2C4FB16F0099DBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BF53682C4FB1700099DBAB /* Preview Assets.xcassets in Resources */,
+				98BF53652C4FB1700099DBAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98BF53592C4FB16F0099DBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BF53632C4FB16F0099DBAB /* ContentView.swift in Sources */,
+				98FB26082C510EBE00EECE5B /* MouseEventController.swift in Sources */,
+				982452042C52308800F79F96 /* SettingsSreenView.swift in Sources */,
+				982452022C52305600F79F96 /* AboutScreenView.swift in Sources */,
+				98BF53612C4FB16F0099DBAB /* MacArrowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		98BF536A2C4FB1700099DBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98BF536B2C4FB1700099DBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		98BF536D2C4FB1700099DBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = MacArrow/MacArrow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacArrow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riveronly.MacArrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		98BF536E2C4FB1700099DBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = MacArrow/MacArrow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacArrow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riveronly.MacArrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98BF53582C4FB16F0099DBAB /* Build configuration list for PBXProject "MacArrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98BF536A2C4FB1700099DBAB /* Debug */,
+				98BF536B2C4FB1700099DBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98BF536C2C4FB1700099DBAB /* Build configuration list for PBXNativeTarget "MacArrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98BF536D2C4FB1700099DBAB /* Debug */,
+				98BF536E2C4FB1700099DBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		982451FD2C52260D00F79F96 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/MenuBarExtraAccess";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
+		98F10C022C5200C7000E46BE /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		982451FE2C52260D00F79F96 /* MenuBarExtraAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 982451FD2C52260D00F79F96 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */;
+			productName = MenuBarExtraAccess;
+		};
+		98F10C032C5200C7000E46BE /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98F10C022C5200C7000E46BE /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 98BF53552C4FB16F0099DBAB /* Project object */;
+}
