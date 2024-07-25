@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5796591C2C5285630039EFAC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		982452012C52305600F79F96 /* AboutScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreenView.swift; sourceTree = "<group>"; };
 		982452032C52308800F79F96 /* SettingsSreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSreenView.swift; sourceTree = "<group>"; };
 		98BF535D2C4FB16F0099DBAB /* MacArrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacArrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +58,7 @@
 		98BF53542C4FB16F0099DBAB = {
 			isa = PBXGroup;
 			children = (
+				5796591C2C5285630039EFAC /* .gitignore */,
 				98BF535F2C4FB16F0099DBAB /* MacArrow */,
 				98BF535E2C4FB16F0099DBAB /* Products */,
 			);
@@ -320,6 +322,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.riveronly.MacArrow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -347,6 +350,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.riveronly.MacArrow;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,41 @@
+# Xcode specific
+*.xcworkspace
+*.xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# IDE and Editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Derived Data
+DerivedData/
+build/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
