@@ -141,6 +141,7 @@
 			packageReferences = (
 				98F10C022C5200C7000E46BE /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
 				982451FD2C52260D00F79F96 /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */,
+				986887FC2C52551700DA5CE1 /* XCRemoteSwiftPackageReference "Defaults" */,
 			);
 			productRefGroup = 98BF535E2C4FB16F0099DBAB /* Products */;
 			projectDirPath = "";
@@ -377,16 +378,24 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/orchetect/MenuBarExtraAccess";
 			requirement = {
-				kind = upToNextMajorVersion;
+				kind = upToNextMinorVersion;
 				minimumVersion = 1.0.5;
+			};
+		};
+		986887FC2C52551700DA5CE1 /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 8.2.0;
 			};
 		};
 		98F10C022C5200C7000E46BE /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

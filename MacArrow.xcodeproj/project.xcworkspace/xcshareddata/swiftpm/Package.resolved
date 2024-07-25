@@ -1,6 +1,15 @@
 {
-  "originHash" : "dd3abb2326971909017eb424fd41f8daffd7fc3e2199d3dbbfaaa154ad08f92c",
+  "originHash" : "90f6dcfbd4a84b6a91115df811850d6b367ebe4ce5f281ca701f9a1311e6a7fb",
   "pins" : [
+    {
+      "identity" : "defaults",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/Defaults",
+      "state" : {
+        "revision" : "38925e3cfacf3fb89a81a35b1cd44fd5a5b7e0fa",
+        "version" : "8.2.0"
+      }
+    },
     {
       "identity" : "launchatlogin-modern",
       "kind" : "remoteSourceControl",
