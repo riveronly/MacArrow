@@ -19,6 +19,7 @@ struct MacArrowApp: App {
                 }
         }
         .defaultSize(width: AppWidth, height: AppHeight)
+        .windowResizability(.contentSize)
         
         MenuBarExtra("Menu", systemImage: "swift") {
             Text("MacArrow")
